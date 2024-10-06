@@ -129,7 +129,7 @@ const handleSubmit = async (e) => {
 
   try {
     const serverUrl = await getServerUrl()
-    const response = await fetch(serverUrl, {
+    const response = await fetch('https://chatgpt-clone-uabr.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
